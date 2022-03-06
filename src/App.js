@@ -11,7 +11,13 @@ function App() {
           <Dictionary />{" "}
         </main>
         <footer className="text-center">
-          <small> Coded by Johanna Lingard </small>
+          <small>
+            {" "}
+            <a href="https://github.com/jclinsim/dictionary-project">
+              {" "}
+              Coded by Johanna Lingard{" "}
+            </a>{" "}
+          </small>
         </footer>
       </div>
     </div>
