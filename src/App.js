@@ -8,17 +8,16 @@ function App() {
         <header className="App-header">Dictionary</header>
         <main>
           {" "}
-          <Dictionary defaultKeyword="sunset" />{" "}
+          <Dictionary defaultKeyword="world" />{" "}
         </main>
         <footer className="text-center">
-          <small>
+          {" "}
+          <a href="https://github.com/jclinsim/dictionary-project">
             {" "}
-            <a href="https://github.com/jclinsim/dictionary-project">
-              {" "}
-              Coded by Johanna Lingard{" "}
-            </a>{" "}
-          </small>
+            Coded by Johanna Lingard{" "}
+          </a>{" "}
         </footer>
+        <br />
       </div>
     </div>
   );
